@@ -163,6 +163,10 @@ nav .right .signin i {
   margin: 0 15px 5px 15px;
 }
 
+.latest-episodes .episodes .single-episode a {
+  text-decoration: none;
+}
+
 .latest-episodes .episodes .single-episode img {
   width: 250px;
   height: 150px;
@@ -284,6 +288,10 @@ nav .right .signin i {
   margin-left: 20px;
 }
 
+.more-content .contents .movies .movie-info a {
+  text-decoration: none;
+}
+
 .more-content .contents .movies .movie-info .movie-title {
   margin-top: 0;
   font-size: 1.4rem;
@@ -386,6 +394,10 @@ nav .right .signin i {
 
 .latest-animes .animes .single-anime {
   margin: 0 15px 5px 15px;
+}
+
+.latest-animes .animes .single-anime a {
+  text-decoration: none;
 }
 
 .latest-animes .animes .single-anime img {

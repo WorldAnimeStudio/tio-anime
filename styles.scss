@@ -136,6 +136,10 @@ nav {
     .single-episode {
       margin: 0 15px 5px 15px;
 
+      a {
+        text-decoration: none;
+      }
+
       img {
         width: 250px;
         height: 150px;
@@ -228,6 +232,10 @@ nav {
           flex-direction: column;
           justify-content: center;
           margin-left: 20px;
+
+          a {
+            text-decoration: none;
+          }
 
           .movie-title {
             margin-top: 0;
@@ -323,6 +331,10 @@ nav {
 
     .single-anime {
       margin: 0 15px 5px 15px;
+
+      a {
+        text-decoration: none;
+      }
 
       img {
         width: 200px;
