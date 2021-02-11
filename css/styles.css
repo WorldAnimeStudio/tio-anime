@@ -13,7 +13,7 @@ html {
 }
 
 main {
-  max-width: 1400px;
+  max-width: 1380px;
   margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ nav .right .fa-search {
   font-size: 1.6rem;
   color: #6c6883;
   position: absolute;
-  right: 105px;
+  right: 95px;
 }
 
 nav .right .signin {
@@ -110,6 +110,11 @@ nav .right .signin {
   border-radius: 50%;
   border: none;
   background-color: #41a6ff;
+  cursor: pointer;
+}
+
+nav .right .signin:hover {
+  background-color: #2177bd;
 }
 
 nav .right .signin i {
@@ -149,9 +154,9 @@ nav .right .signin i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .latest-episodes .episodes .single-episode {
@@ -339,5 +344,159 @@ nav .right .signin i {
 .more-content .contents .movies .more-movies:hover {
   background-color: #383158;
   color: #fff;
+}
+
+.latest-animes {
+  background-color: #18142f;
+  padding-bottom: 20px;
+}
+
+.latest-animes .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.latest-animes .title i {
+  font-weight: 900;
+  font-size: 3.2rem;
+  color: #37d1a2;
+  margin-right: 20px;
+}
+
+.latest-animes .title h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.latest-animes .animes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.latest-animes .animes .single-anime {
+  margin: 0 15px 5px 15px;
+}
+
+.latest-animes .animes .single-anime img {
+  width: 200px;
+  height: 290px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.latest-animes .animes .single-anime h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.latest-animes .animes .single-anime h4:hover {
+  color: #37a6ff;
+}
+
+footer {
+  background-color: #1f1a3a;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #474450;
+}
+
+footer .footer-top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-top-left img {
+  width: 225px;
+}
+
+footer .footer-top-left-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-top-left-navbar li {
+  list-style: none;
+  color: #c6c2dd;
+  font-size: 1.6rem;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+footer .footer-top-left-navbar li:hover {
+  color: #fff;
+}
+
+footer .footer-top-right-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-top-right-navbar li {
+  list-style: none;
+}
+
+footer .footer-top-right-navbar li i {
+  color: #c6c2dd;
+  margin: 0 15px;
+  font-size: 2.5rem;
+}
+
+footer .footer-top-right-navbar li i:hover {
+  color: #fff;
+}
+
+footer .footer-bottom {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .footer-bottom h3 {
+  color: #c6c2dd;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=styles.css.map */
